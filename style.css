@@ -1,0 +1,73 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2560px-International_Pok%C3%A9mon_logo.svg.png")
+    no-repeat;
+  background-size: cover;
+}
+
+#content-box {
+  width: 500px;
+  height: 500px;
+  border: 10px solid lightgray;
+  border-radius: 10px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 60px;
+  background: url("https://c4.wallpaperflare.com/wallpaper/750/198/343/minimalism-pikachu-pokemon-wallpaper-preview.jpg")
+    no-repeat;
+  background-size: cover;
+}
+
+#pokemon-info {
+  width: 250px;
+  height: 500px;
+  text-align: center;
+}
+
+#pokemon-list {
+  width: 250px;
+  height: 500px;
+  font-size: 18px;
+  overflow-y: auto;
+}
+
+.pokemon-name {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  margin: 5px;
+  padding: 5px;
+}
+#pokemon-info img {
+  width: 160px;
+  height: 160px;
+  border: 1px solid black;
+  border-radius: 90px;
+  margin-top: 20px;
+
+  background: url("https://seeklogo.com/images/P/pokeball-logo-DC23868CA1-seeklogo.com.png")
+    no-repeat;
+  background-size: cover;
+}
+
+#pokemon-types {
+  margin-top: 10px;
+}
+
+.type-box {
+  padding: 3px;
+  margin: 5px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+}
+#pokemon-description {
+  width: 180px;
+  margin-top: 30px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  overflow-y: auto;
+  margin-left: 20px;
+  background-color: aliceblue;
+}
